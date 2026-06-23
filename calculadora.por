@@ -1,6 +1,21 @@
 programa {
   
-  funcao inicio() {
+  funcao inicio() 
+{
+        inteiro numero1
+        inteiro numero2
+        inteiro soma
+
+        escreva("Digite o primeiro número: ")
+        leia(numero1)
+
+        escreva("Digite o segundo número: ")
+        leia(numero2)
+
+        soma = numero1 + numero2
+
+        escreva("Resultado da soma: ", soma)
+
     
   }
 }
